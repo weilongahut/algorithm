@@ -1,5 +1,5 @@
-import com.wilson.study.sort.Insertion;
-import com.wilson.study.sort.Selection;
+package com.wilson.study.sort;
+
 import org.junit.Before;
 import org.junit.Test;
 
