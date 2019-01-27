@@ -25,7 +25,7 @@ public class LinkedTest {
         int i = 2;
         Node p = head;
 
-        while (i < 5) {
+        while (i <= 5) {
             Node next = new Node();
             next.setValue(i);
             p.setNext(next);
@@ -40,7 +40,7 @@ public class LinkedTest {
         printLinkedList(this.node);
         LinkRevert linkRevert = new LinkRevert();
 //        linkRevert.revert(this.node);
-        printLinkedList(linkRevert.revert(this.node));
+        printLinkedList(linkRevert.reverseBetween(this.node, 2, 4));
 
     }
 
